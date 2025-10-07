@@ -262,6 +262,7 @@ cd  examples
 ### Login to Docker [Create an account with https://hub.docker.com/]
 
 ```
+echo "password" | docker login -u shyam --password-stdin
 docker login
 ```
 
